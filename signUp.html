@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <link rel="icon" href="images/Climatic_Change.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+  <!-- CSS StyleSheets -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="coloured-section signUp-page-navbar" id="title">
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand brand-name" href="index.html">NatureDesk</a>
+
+    </nav>
+
+  </section>
+
+  <div class="white-section">
+    <div class="inputDetails">
+      <h2>Sign Up to go on an earthly adventure with us.</h2><br>
+      <form action='#' onsubmit='return validation()'>
+        <div class="container-fluid form border border-info rounded">
+          <div class="row">
+            <div class="col">
+              <input type="text" id='fname' class="form-control" placeholder="First name" onkeyup='letters(this)'>
+              <span id='fnames' class='text-danger font-weight-bold'></span>
+            </div>
+            <div class="col">
+              <input type="text" id='lname' class="form-control" placeholder="Last name" onkeyup='letters(this)'>
+              <span id='lnames' class='text-danger font-weight-bold'></span>
+            </div>
+          </div><br>
+          <div class="row username">
+            <input type="text" class="form-control" id='user' placeholder="Username" onkeyup='letters(this)'>
+            <span id='username' class='text-danger font-weight-bold'></span>
+          </div><br>
+          <div class="row">
+            <div class="col">
+              <input type="password" id='pass' class="form-control" placeholder="Password">
+              <span id='passes' class='text-danger font-weight-bold'></span>
+            </div>
+
+            <div class="col">
+              <input type="password" id='confirm' class="form-control" placeholder="Confirm">
+              <span id='confirms' class='text-danger font-weight-bold'></span>
+            </div><br>
+          </div>
+        </div>
+        <br>
+        <button type='button' onclick='return validation()' class="btn btn-outline-info complaint-submission-btn" id="signup-btn">Sign Up</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="colo">
+
+  </div>
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <hr>
+    <div class="container-fluid">
+      <p style="font-size: 1rem;"><i class="social-button fab fa-twitter"></i> <i class="social-button fab fa-facebook-f"></i> <i class="social-button fab fa-instagram"></i> <i class=" social-button fas fa-envelope"></i></p>
+      <p class="copyright">© Copyright 2019 NatureDesk</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Js , JQuery , Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src='scripts/valid3_signup.js'></script>
+
+</body>
+
+</html>
