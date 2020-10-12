@@ -1,0 +1,286 @@
+title {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  position: relative;
+  right: 35px;
+  width: 120%;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #6bc5d2;
+  color: #FFF;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  font-size: 15px;
+  margin-bottom: 75px;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 4.95%;
+  text-align: left;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title Image */
+.sub-text-img {
+  width: 65%;
+  position: relative;
+  left: 160px;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-img {
+  color: #d2fafb;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.feature-img:hover {
+  color: #6bc5d2;
+}
+
+.feature-description {
+  /* color: #8F8F8F; */
+  width: 60%;
+  margin: 0 auto;
+}
+
+.col-lg-4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Donors_Carousel*/
+#Carousel {
+  background-color: #badfdb;
+  padding-bottom: 1.5%;
+
+}
+
+.carousel-img {
+  width: 25%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-heading {
+  font-size: 3rem;
+  padding-top: 5%;
+}
+
+.carousel-desc {
+  color: #fff;
+  font-size: 2.4rem;
+    text-align: right;
+}
+
+.carousel-feedback {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.signUp-page-navbar {
+  padding: 5px 20px;
+}
+
+.brand-name {
+  position: relative;
+  top: 30px;
+}
+
+.inputDetails {
+  padding: 20px 0;
+}
+
+.row {
+  padding: 20px 10px;
+  margin: 0 10px;
+  /* width: 50%; */
+}
+
+.username {
+  margin: 0 25px;
+  /* width: 47%; */
+}
+
+.form {
+  position: relative;
+  width: 60%;
+}
+
+.signUp-btn {
+  position: relative;
+  bottom: 85px;
+  /* left: 250px; */
+}
+
+.feedback {
+  /* margin-right: 50px; */
+  position: relative;
+  right: 80px;
+}
+
+.submit-btn {
+  position: relative;
+  top: 20px;
+}
+
+.form {
+  text-align: center;
+}
+
+#title {
+    text-align: center;
+  }
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3 rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.card2 {
+  position: relative;
+  left: 180px;
+}
+
+.card3 {
+  position: relative;
+  left: 360px;
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+/* Complaint form */
+
+.complaint {
+  position: relative;
+  left: 5px;
+}
+.blog-heading {
+  padding: 8px;
+  padding-top: 50px;
+  padding-bottom: 0;
+  text-align: left;
+  position: relative;
+  left: 45px;
+}
+.blog-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.blog-pic {
+  position: relative;
+  left: 50px;
+}
+
+/* Payment Portal */
+
+.payment-portal-heading {
+  padding: 40px;
+  color: #000;
+}
+
+.payment-details-section {
+  width: 110%;
+}
+
+/* Footer */
+#cta {
+  padding: 7% 17% 3% 17%;
+}
+
+#footer {
+  background-color: #6bc5d2;
+}
+
+.social-button {
+  color: #343a40;
+  font-size: 1.25rem;
+  margin: 20px 10px;
+}
+
+.copyright {
+  color: grey;
+  font-weight: 500;
+}
